@@ -27,7 +27,7 @@ public class Wordle {
 
                 log.println("=== Завершение приложения Wordle ===");
             } catch (Exception e) {
-                log .println("Критическая ошибка во время работы программы: " + e.getMessage());
+                log.println("Критическая ошибка во время работы программы: " + e.getMessage());
                 e.printStackTrace(log);
                 System.out.println("Произошла внутренняя ошибка программы. Подробности записаны в лог-файл.");
             }
